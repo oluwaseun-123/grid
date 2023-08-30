@@ -1,0 +1,158 @@
+body {
+  margin: 100px;
+  background-color: darkslategray;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(9, 5rem);
+  grid-template-rows: repeat(4, 5rem);
+  gap: 10px;
+  row-gap: 55px;
+  justify-content: center;
+  align-items: center;
+}
+.main div {
+  border: solid;
+  padding: 10px;
+}
+.db {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  color: blue;
+}
+.in {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: yellow;
+}
+.li {
+  color: yellow;
+}
+.fb {
+  color: yellow;
+}
+.ct {
+  color: green;
+}
+.sl {
+  color: green;
+}
+.wk {
+  color: coral;
+}
+.sp {
+  color: coral;
+}
+.tw {
+  color: yellow;
+}
+.tc {
+  color: yellow;
+}
+.gt {
+  color: green;
+}
+.yn {
+  color: green;
+}
+.ii {
+  color: blue;
+}
+.te {
+  color: blue;
+}
+.wu {
+  color: blue;
+}
+.cv {
+  color: coral;
+}
+.dg {
+  color: coral;
+}
+.tg {
+  color: coral;
+}
+.gg {
+  color: blue;
+}
+.ex {
+  color: blue;
+}
+.so {
+  color: green;
+}
+.cd {
+  color: green;
+}
+.cp {
+  color: blue;
+}
+.tr {
+  color: blue;
+}
+.in {
+  color: yellow;
+}
+.mu {
+  color: coral;
+}
+.me {
+  color: coral;
+}
+.no {
+  color: green;
+}
+.re {
+  color: yellow;
+}
+.rd {
+  color: green;
+}
+.st {
+  color: green;
+}
+.ad {
+  color: green;
+}
+.book {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 10px;
+}
+.box {
+  height: 20px;
+  width: 20px;
+  background-color: yellow;
+}
+.square {
+  height: 20px;
+  width: 20px;
+  background-color: green;
+}
+.circle {
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+}
+.triangle {
+  height: 20px;
+  width: 20px;
+  background-color: coral;
+}
+.book p {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.come {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+}
+.come p {
+  color: white;
+}
